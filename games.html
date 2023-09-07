@@ -1,0 +1,179 @@
+
+<!-- Head ///////////////////////////////////////////-->
+<!-- Head ///////////////////////////////////////////-->
+<!-- Head ///////////////////////////////////////////-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Body ///////////////////////////////////////////-->
+<!-- Body ///////////////////////////////////////////-->
+<!-- Body ///////////////////////////////////////////-->
+
+
+  
+  <h1 class="hvr-grow2" id="allgames">All Games</h1>
+    <div class="grid-container">
+
+<!-- Grid Items ///////////////////////////////////////////-->
+<!-- Grid Items ///////////////////////////////////////////-->
+<!-- Grid Items ///////////////////////////////////////////-->
+
+        <div_2048 class="_2048 games hvr-grow"></div_2048>
+        <div_8ballpool class="_8ballpool games hvr-grow"></div_8ballpool>
+        <div_airhockey class="_airhockey games hvr-grow"></div_airhockey>
+        <div_amongus class="_amongus games hvr-grow"></div_amongus>
+        <div_angrybirds class="_angrybirds games hvr-grow"></div_angrybirds>
+        <div_backrooms class="_backrooms games hvr-grow"></div_backrooms>
+        <div_baldisbasics class="_baldisbasics games hvr-grow"></div_baldisbasics>
+        <div_bitlife class="_bitlife games hvr-grow"></div_bitlife>
+        <div_bloonstd class="_bloonstd games hvr-grow"></div_bloonstd>
+        <div_bloonstd2 class="_bloonstd2 games hvr-grow"></div_bloonstd2>
+        <div_bloonstd3 class="_bloonstd3 games hvr-grow"></div_bloonstd3>
+        <div_bloonstd4 class="_bloonstd4 games hvr-grow"></div_bloonstd4>
+        <div_bloonstd5 class="_bloonstd5 games hvr-grow"></div_bloonstd5>
+        <div_cookieclicker class="_cookieclicker games hvr-grow"></div_cookieclicker>
+        <div_crossyroad class="_crossyroad games hvr-grow"></div_crossyroad>
+        <div_csgocaseclicker class="_csgocaseclicker games hvr-grow"></div_csgocaseclicker>
+        <div_doodlejump class="_doodlejump games hvr-grow"></div_doodlejump>
+        <div_drifthunters class="_drifthunters games hvr-grow"></div_drifthunters>
+        <div_flappybird class="_flappybird games hvr-grow"></div_flappybird>
+        <div_fridaynightfunkin class="_fridaynightfunkin games hvr-grow"></div_fridaynightfunkin>
+        <div_fruitninja class="_fruitninja games hvr-grow"></div_fruitninja>
+        <div_geometrydash class="_geometrydash games hvr-grow"></div_geometrydash>
+        <div_hackertyper class="_hackertyper games hvr-grow"></div_hackertyper>
+        <div_helixjump class="_helixjump games hvr-grow"></div_helixjump>
+        <div_jetpackjoyride class="_jetpackjoyride games hvr-grow"></div_jetpackjoyride>
+        <div_minecraftclassic class="_minecraftclassic games hvr-grow"></div_minecraftclassic>
+        <div_minecraftjava class="_minecraftjava games hvr-grow"></div_minecraftjava>
+        <div_precision class="_precision games hvr-grow"></div_precision>
+        <div_resent class="_resent games hvr-grow"></div_resent>
+        <div_motox3m class="_motox3m games hvr-grow"></div_motox3m>
+        <div_motox3m2 class="_motox3m2 games hvr-grow"></div_motox3m2>
+        <div_motox3m3 class="_motox3m3 games hvr-grow"></div_motox3m3>
+        <div_motox3mpoolparty class="_motox3mpoolparty games hvr-grow"></div_motox3mpoolparty>
+        <div_motox3mspooky class="_motox3mspooky games hvr-grow"></div_motox3mspooky>
+        <div_motox3mwinter class="_motox3mwinter games hvr-grow"></div_motox3mwinter>
+        <div17 class="grid-item"></div17>
+        <div18 class="grid-item"></div18>
+
+        <body>
+          <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <div class="wrapper">
+           <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="games.html">Games</a></li>
+              <li><a href="unblocker.html">Unblocker</a></li>
+              <li><a href="#">Tools (WIP)</a></li>
+              <li><a href="#">Chatroom (WIP)</a></li>
+              <li><a href="#">Kevin Clicker</a></li>
+              <li><a href="#">About</a></li>
+           </ul>
+        </div>
+        
+<!-- Games ///////////////////////////////////////////-->
+<!-- Games ///////////////////////////////////////////-->
+<!-- Games ///////////////////////////////////////////-->
+
+<!-- 2048 ///////////////////////////////////////////-->
+
+<script>
+  var urlObj = new window.URL(window.location.href);
+  var url = "https://skoolgq.github.io/skoolv2_assets/2048";
+  if (url) {
+    var win;
+
+    document.querySelector('div_2048').onclick = function() {
+      if (win) {
+        win.focus();
+      } else {
+        win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
+    };
+  }
+       
+</script>
+
+<!-- 8 Ball Pool ///////////////////////////////////////////-->
+
+<script>
+  var urlObj = new window.URL(window.location.href);
+  var url = "https://skoolgq.github.io/skoolv2_assets/2048";
+  if (url) {
+    var win;
+
+    document.querySelector('div_8ballpool').onclick = function() {
+      if (win) {
+        win.focus();
+      } else {
+        win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
+    };
+  }
+       
+</script>
+
+<!-- Air Hockey ///////////////////////////////////////////-->
+
+<script>
+  var urlObj = new window.URL(window.location.href);
+  var url = "https://skoolgq.github.io/skoolv2_assets/2048";
+  if (url) {
+    var win;
+
+    document.querySelector('divb').onclick = function() {
+      if (win) {
+        win.focus();
+      } else {
+        win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
+      document.querySelector('div2').style.bacground = 'grey';
+      document.querySelector('div2').innerHTML = "Play Now";
+    };
+  }
+
+</script>
+          
+      
+
+          
+      
+</body>
+</html>
